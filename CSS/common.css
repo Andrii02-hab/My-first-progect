@@ -1,0 +1,58 @@
+:root{
+  --primary-text-color:#212121;
+  --title-text-color:#757575;
+  --accent-color: #2196F3;
+  --white-header-color:#ffffff;
+  --dark-background-color:#2F303A;  
+  --white-background-color:#F5F5F5;
+  --white-backgroundtwo-color:#F5F4FA;
+  --adres-color: rgba(255, 255, 255, 0.6);
+  --emblem-color:#000000;
+  --white-text-color:#FFF;
+  
+}
+
+.body{background-color:var(--white-background-color);}
+.ul{list-style: none;}
+
+
+/* Site header */
+.logo{color: var(--emblem-color);}
+.logo-main {color: var(--accent-color);}
+
+.logo:hover, 
+.logo:focus {color: var(--accent-color);}
+
+/* Site nav */
+
+.site-nav .link{color: var(--primary-text-color);}
+.site-nav .link:hover,
+.site-nav .link:focus{color: var(--accent-color);}
+.site-nav .link-list{color: var(--accent-color);}
+
+.contakt .contakt-site{color: var(--accent-color);}
+.contakt .contakt-phone{color: var(--primary-text-color);}
+
+/* hero */
+
+.div{background-color: var(--dark-background-color);}
+.title-hero{color: var(--white-text-color);}
+
+
+ 
+/* footer */
+
+.footer{background-color: var(--dark-background-color);}
+
+.logo{color: var(--emblem-color);}
+.logo-main {color: var(--accent-color);}
+
+.logo:hover, 
+.logo:focus {color: var(--accent-color);}
+
+.footer-adres{color: var(--white-header-color);}
+.contakt-site{color: var(--adres-color);}
+.contakt-phone{color: var(--adres-color);}
+
+
+
