@@ -12,12 +12,24 @@
   
 }
 
-.body{background-color:var(--white-background-color);}
-.ul{list-style: none;}
+.body{background-color:var(--white-background-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.ul{list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 
 /* Site header */
-.logo{color: var(--emblem-color);}
+.logo{color: var(--emblem-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
 .logo-main {color: var(--accent-color);}
 
 .logo:hover, 
@@ -29,6 +41,10 @@
 .site-nav .link:hover,
 .site-nav .link:focus{color: var(--accent-color);}
 .site-nav .link-list{color: var(--accent-color);}
+.site-nav{font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;}
 
 .contakt .contakt-site{color: var(--accent-color);}
 .contakt .contakt-phone{color: var(--primary-text-color);}
@@ -36,12 +52,25 @@
 /* hero */
 
 .div{background-color: var(--dark-background-color);}
-.title-hero{color: var(--white-text-color);}
+.title-hero{color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4; 
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 
 /* button */
 
 .button{color: var(--white-text-color);
-  background-color: var(--accent-color);}
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+  display: block;
+}
 
  .button .primery{background-color:var(--accent-color);
 color: var(--white-text-color); }
@@ -49,26 +78,49 @@ color: var(--white-text-color); }
 
 /* Our advantages*/
  .section{background-color: var(--white-background-color);}
-  .section .section-title{color: var(--primary-text-color);}
- .section-title-advantages{color: var(--title-text-color);}
-
-
+.section-title{color: var(--primary-text-color);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.8}
+ .section-title-advantages{color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;}
 /* activity */
 
 .activity{background-color: var(--white-backgroundtwo-color);}
-.activity-title{color: var(--primary-text-color);}
+.activity-title{color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
 
 /* our team */
 
 .team{background-color: var(--white-backgroundtwo-color);}
-.team-title{color: var(--primary-text-color);}
-.text-team{color: var(--title-text-color);}
+.team-title{color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-team{color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
  
 /* footer */
 
 .footer{background-color: var(--dark-background-color);}
 
-.logo{color: var(--emblem-color);}
+.logo{color: var(--emblem-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
 .logo-main {color: var(--accent-color);}
 
 .logo:hover, 
@@ -77,4 +129,9 @@ color: var(--white-text-color); }
 .footer-adres{color: var(--white-header-color);}
 .contakt-site{color: var(--adres-color);}
 .contakt-phone{color: var(--adres-color);}
+.footer-title{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;}
+ 
 
